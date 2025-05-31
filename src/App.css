@@ -36,3 +36,49 @@ footer {
   color: white;
   margin-top: 2rem;
 }
+.work-section {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+}
+
+.project h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.research-section {
+  margin-top: 4rem;
+}
+
+.research-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+

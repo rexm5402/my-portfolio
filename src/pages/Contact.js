@@ -15,7 +15,7 @@ function Contact() {
         </p>
 
         <div style={styles.contactBlock}>
-          <h2 style={styles.sectionHeading}>🤝 Reach Me At</h2>
+          <h2 style={styles.sectionHeading}>Reach Me At</h2>
           <ul style={styles.list}>
             <li>
               <strong>Email (Primary):</strong>{' '}
