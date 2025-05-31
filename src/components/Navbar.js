@@ -11,7 +11,9 @@ function Navbar() {
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/work">Work</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Aryan_Murugesh_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</Link>
+
+            <Link to="/contact">Contact</Link>
         </nav>
       </div>
     </header>
