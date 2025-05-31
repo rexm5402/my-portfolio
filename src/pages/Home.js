@@ -5,17 +5,20 @@ function Home() {
   return (
     <main className="container">
       <section style={{ textAlign: 'center' }}>
-        <img 
-          src="/IMG_6609.JPG" 
-          alt="Aryan Murugesh" 
-          style={{
-            width: '180px',
-            height: 'auto',
-            borderRadius: '12px',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-            marginBottom: '20px'
-          }}
-        />
+      <h1 style={{ fontSize: '2rem', fontWeight: '600', marginBottom: '1rem' }}>Aryan Murugesh</h1>
+
+<img 
+  src="/IMG_6609.JPG" 
+  alt="Aryan Murugesh" 
+  style={{
+    width: '180px',
+    height: 'auto',
+    borderRadius: '12px',
+    boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+    marginBottom: '20px'
+  }}
+/>
+
         <h1>Hi, I’m Aryan Murugesh</h1>
         <h2 style={{ color: '#3b82f6', fontWeight: '500' }}>
           Turning complex problems into elegant code.

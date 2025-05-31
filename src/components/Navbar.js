@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="nav-container">
-        <div className="nav-logo">Aryan Murugesh</div>
+        
         <nav className="nav-links">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
