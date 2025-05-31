@@ -8,6 +8,14 @@ function Work() {
     <main className="work-section">
       <h1 style={{ fontSize: '2rem', marginBottom: '1rem', color: '#333' }}>🛠️ My Work</h1>
 
+      <section className="research-section">
+        <h1 style={{ fontSize: '2rem', marginTop: '1rem', marginBottom: '1rem', color: '#333' }}>Research Publication</h1>
+        <div className="project">
+          <h2><Link to="/research-fingerprint">Efficient Fingerprint Authentication Using SHA-512 & Verilog</Link></h2>
+          <p>Co-authored an IEEE-published research paper that designed a secure biometric verification system combining cryptography and hardware-level design.</p>
+        </div>
+      </section>
+
       <section className="project-list">
         <div className="project">
           <h2><Link to="/project-bugmap">BugMap: Analyzing and Classifying File System Bug Patterns for Reliability</Link></h2>
@@ -27,14 +35,6 @@ function Work() {
         <div className="project">
           <h2><Link to="/project-pricepredict">Machine Learning-Based Industry Price Prediction</Link></h2>
           <p>Built a regression model using scikit-learn to forecast fluctuating industry prices, evaluated using MSE/R2, and visualized predictions.</p>
-        </div>
-      </section>
-
-      <section className="research-section">
-        <h1 style={{ fontSize: '2rem', marginTop: '3rem', marginBottom: '1rem', color: '#333' }}>📚 Research Publication</h1>
-        <div className="project">
-          <h2><Link to="/research-fingerprint">Efficient Fingerprint Authentication Using SHA-512 & Verilog</Link></h2>
-          <p>Co-authored an IEEE-published research paper that designed a secure biometric verification system combining cryptography and hardware-level design.</p>
         </div>
       </section>
     </main>
