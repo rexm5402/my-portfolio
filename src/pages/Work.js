@@ -26,7 +26,7 @@ function Work() {
         </div>
 
         <div className="project">
-          <h2><Link to="/project-edgecloud">Optimizing Latency in Edge–Cloud Computing for Real-Time Applications</Link></h2>
+          <h2><Link to="/edge-cloud">Optimizing Latency in Edge–Cloud Computing for Real-Time Applications</Link></h2>
           <p>A distributed systems research project using iFogSim to reduce round-trip latency in IoT cloud deployments, with flowcharts, simulation, and performance graphs.</p>
         </div>
 

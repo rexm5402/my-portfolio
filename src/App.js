@@ -7,6 +7,8 @@ import Work from './pages/Work';
 import Navbar from './components/Navbar';
 import ResearchFingerprint from './pages/ResearchFingerprint';
 import BugMap from './pages/BugMap';
+import EdgeCloud from './pages/EdgeCloud';
+
 
 
 
@@ -25,6 +27,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/research-fingerprint" element={<ResearchFingerprint />} />
         <Route path="/project-bugmap" element={<BugMap />} />
+        <Route path="/edge-cloud" element={<EdgeCloud />} />
+
 
 
 
