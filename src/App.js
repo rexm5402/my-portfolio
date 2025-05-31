@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import ResearchFingerprint from './pages/ResearchFingerprint';
 import BugMap from './pages/BugMap';
 import EdgeCloud from './pages/EdgeCloud';
+import VideoGen from './pages/VideoGen';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/research-fingerprint" element={<ResearchFingerprint />} />
         <Route path="/project-bugmap" element={<BugMap />} />
         <Route path="/edge-cloud" element={<EdgeCloud />} />
+        <Route path="/project-videogen" element={<VideoGen />} />
 
 
 
