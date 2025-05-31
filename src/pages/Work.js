@@ -11,7 +11,7 @@ function Work() {
       <section className="research-section">
         <h1 style={{ fontSize: '2rem', marginTop: '1rem', marginBottom: '1rem', color: '#333' }}>Research Publication</h1>
         <div className="project">
-          <h2><Link to="ResearchFingerprint.js">Efficient Fingerprint Authentication Using SHA-512 & Verilog</Link></h2>
+          <h2><Link to="/ResearchFingerprint">Efficient Fingerprint Authentication Using SHA-512 & Verilog</Link></h2>
           <p>Co-authored an IEEE-published research paper that designed a secure biometric verification system combining cryptography and hardware-level design.</p>
         </div>
       </section>
