@@ -1,27 +1,29 @@
 import React from 'react';
-import '../App.css';
 
 function Contact() {
   return (
-    <main className="contact-section">
-      <h1> Contact Me</h1>
-      <p>I’m always excited to connect — job roles, research ideas, or tech chats!</p>
+    <div>
+      <h1>Let’s Talk</h1>
 
-      <h3> Email</h3>
       <p>
-        Primary: <a href="mailto:murugesharyan@gmail.com">murugesharyan@gmail.com</a><br />
-        Alternate: <a href="mailto:aryanm54@iastate.edu">aryanm54@iastate.edu</a>
+        You made it this far — now let’s make it count.
       </p>
 
-      <h3> Phone</h3>
-      <p>+1 (515) 337-9991</p>
+      <p>
+        I’m always open to new opportunities, exciting projects, or just a good old-fashioned chat about tech,
+        startups, or life as a grad student navigating code and caffeine. Whether you're a recruiter, researcher,
+        developer, or someone curious about my work — don’t hesitate to say hi.
+      </p>
 
-      <h3> Address</h3>
-      <p>103 Campus Ave, Ames, Iowa – 50014, USA</p>
-
-      <h3> LinkedIn</h3>
-      <p><a href="https://www.linkedin.com/in/aryan-murugesh" target="_blank" rel="noopener noreferrer">linkedin.com/in/aryan-murugesh</a></p>
-    </main>
+      <h2>🤝 Reach Me At</h2>
+      <ul>
+        <li><strong>Email (Primary):</strong> <a href="mailto:murugesharyan@gmail.com">murugesharyan@gmail.com</a></li>
+        <li><strong>Email (University):</strong> <a href="mailto:aryanm54@iastate.edu">aryanm54@iastate.edu</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+15153379991">+1 (515) 337-9991</a></li>
+        <li><strong>Address:</strong> 103 Campus Ave, Ames, IA 50014</li>
+        <li><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/aryan-murugesh-2a1154217" target="_blank" rel="noopener noreferrer">linkedin.com/in/aryanmurugesh</a></li>
+      </ul>
+    </div>
   );
 }
 

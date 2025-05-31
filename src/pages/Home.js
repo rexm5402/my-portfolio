@@ -1,40 +1,24 @@
-// Home.js
 import React from 'react';
-import '../App.css';
 
 function Home() {
   return (
-    <section className="hero">
-      <div className="container">
-        <h1> Welcome — I’m Aryan Murugesh</h1>
-        <h2>Software Developer | Front-End Engineer | Researcher</h2>
+    <div>
+      <h1>Hi, I’m Aryan Murugesh — a builder at heart, a problem-solver by mindset.</h1>
+      
+      <p>
+        I’m currently pursuing my Master’s in Computer Engineering at Iowa State University, with a specialization in Software Systems.
+        From designing robust web apps to exploring the frontier of machine unlearning, I’m driven by the challenge of turning complex
+        problems into scalable, secure, and real-world-ready solutions. With hands-on experience as a front-end developer and published
+        research paper in cybersecurity, I bring both technical depth and practical execution to the table.
+      </p>
 
-        <p>
-          I design and build web applications that are clean, fast, and human-focused. With a background in Electronics and Communication Engineering and a Master’s in Computer Engineering from Iowa State University, I bring a rare combination of low-level technical insight and high-level product thinking to every project.
-        </p>
-
-        <p>
-          Over the past few years, I’ve gone from crafting intuitive front-end interfaces to contributing to real-world research in secure systems and machine learning. My journey has been shaped by:
-        </p>
-
-        <ul>
-          <li> A front-end developer internship at Skyscend India, where I implemented scalable design systems and optimized UI performance.</li>
-          <li> A software internship at Scaler Academy, where I supported full-stack initiatives in fast-paced product teams.</li>
-          <li> A published IEEE paper on secure biometric authentication during my undergrad at PES University.</li>
-          <li> A current research project in machine unlearning under Professor Yong Guan, addressing privacy and trust in artificial intelligence.</li>
-        </ul>
-
-        <h2> What I Build</h2>
-        <p>
-          My focus is simple: create software that solves problems and scales with people. I’ve built everything from internal dashboards and data visualizations to dynamic user-facing applications. I’m comfortable turning whiteboard concepts into working production-grade features.
-        </p>
-
-        <h2> What Drives Me</h2>
-        <p>
-          Every line of code I write is grounded in purpose. Whether it’s improving user experiences, securing systems, or exploring the boundaries of ethical machine learning, I approach software as both a craft and a responsibility.
-        </p>
-      </div>
-    </section>
+      <p>
+        This portfolio is more than a showcase — it’s a window into how I think and build.
+        Whether it’s a sleek front-end interface, a blockchain-powered dApp, or a privacy-focused Chrome extension, each project reflects
+        my obsession with clean architecture, user-centric design, and impactful functionality. If you're looking for someone who codes
+        with purpose, iterates with curiosity, and never stops learning — you're in the right place.
+      </p>
+    </div>
   );
 }
 

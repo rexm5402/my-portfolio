@@ -1,49 +1,75 @@
 import React from 'react';
-import '../App.css';
 
 function About() {
   return (
-    <main className="about-section">
-      <h1> About Me</h1>
-      <h2> Hello! I’m Aryan Murugesh</h2>
-      <p>I’m a graduate student in Computer Engineering at Iowa State University with a strong interest in software development and front-end engineering...</p>
+    <div>
+      <h1>About Me</h1>
 
-      <h2> Academic Background</h2>
+      <p>
+        I’m Aryan Murugesh, a Master’s student in Computer Engineering at Iowa State University, specializing in Software Systems.
+        I bring a multidisciplinary background — with a Bachelor’s in Electronics and Communication Engineering from PES University —
+        and a passion for building software that solves real problems.
+      </p>
+
+      <p>
+        Over the years, I’ve explored the spectrum of technology — from front-end development to distributed systems, blockchain,
+        and cybersecurity research. My journey includes:
+      </p>
+
       <ul>
-        <li>M.S. in Computer Engineering, Iowa State University (2024–2026)</li>
-        <li>B.E. in Electronics and Communication Engineering, PES University, Bangalore (2020–2024)</li>
-        <li>Published paper in IEEE on fingerprint authentication using SHA-512 and Verilog</li>
+        <li>
+          A front-end development internship at Skyscend India Pvt Ltd, where I translated business goals into clean,
+          responsive user interfaces.
+        </li>
+        <li>
+          A software intern stint at Scaler Academy, where I helped build internal tools and workflows, generating tangible value.
+        </li>
+        <li>
+          A co-authored IEEE publication on fingerprint authentication using SHA-512 and Verilog.
+        </li>
+        <li>
+          A current summer research project under Prof. Yong Guan, focusing on machine unlearning for privacy-preserving AI systems.
+        </li>
       </ul>
 
-      <h2> Internship Experience</h2>
-      <h3>Frontend Developer Intern — Skyscend India</h3>
+      <p>
+        I love working at the intersection of research and application — diving deep into the “how” while keeping the “why” in focus.
+      </p>
+
+      <h2>What I Bring to the Table</h2>
       <ul>
-        <li>Developed responsive web interfaces using HTML, CSS, and JavaScript.</li>
-        <li>Reduced page load times by 18%.</li>
-        <li>Collaborated with designers and backend devs.</li>
+        <li>Hands-on coding experience with HTML, CSS, JavaScript, Python, Java, Solidity</li>
+        <li>Strong foundations in distributed systems, data storage, and computer networks</li>
+        <li>Experience with cloud simulation (iFogSim), Ethereum smart contracts, and machine learning</li>
+        <li>An ability to adapt quickly, work independently, and communicate effectively</li>
       </ul>
 
-      <h3>Software Intern — Scaler Academy</h3>
-      <ul>
-        <li>Contributed to internal dashboards using React and JS.</li>
-        <li>Resolved bugs and helped with backend API testing.</li>
-        <li>Generated a revenue impact of ₹6.5 lakhs (~$7,800 USD).</li>
-      </ul>
+      <h2>What I’m Looking For</h2>
+      <p>
+        I’m actively seeking opportunities — internships or full-time roles — in software development, front-end engineering,
+        or research-heavy roles where I can grow while contributing meaningfully.
+        My goal is to work on real-world systems that demand both reliability and creativity.
+      </p>
 
-      <h2> Research</h2>
-      <ul>
-        <li>Working under Prof. Yong Guan on Machine Unlearning research.</li>
-        <li>Focusing on privacy-preserving data deletion from ML models.</li>
-      </ul>
+      <a 
+  href="/Aryan_Murugesh_Resume.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  style={{ 
+    display: 'inline-block',
+    marginTop: '20px',
+    padding: '10px 20px',
+    background: '#007BFF',
+    color: '#fff',
+    borderRadius: '5px',
+    textDecoration: 'none',
+    fontWeight: 'bold'
+  }}
+>
+  View My Resume
+</a>
 
-      <h2> Skills</h2>
-      <ul>
-        <li><strong>Languages:</strong> JavaScript, Python, Java, HTML, CSS</li>
-        <li><strong>Frameworks:</strong> React.js, Tailwind CSS, Node.js</li>
-        <li><strong>Tools:</strong> Git, VS Code, Postman, Figma</li>
-        <li><strong>Other:</strong> Verilog, SHA-512, Agile, IEEE writing</li>
-      </ul>
-    </main>
+    </div>
   );
 }
 
