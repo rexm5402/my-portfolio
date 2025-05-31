@@ -22,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/research-fingerprint" element={<ResearchFingerprint />} />
 
+
       </Routes>
 
       <footer>
