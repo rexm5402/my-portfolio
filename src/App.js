@@ -5,6 +5,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Work from './pages/Work';
 import Navbar from './components/Navbar';
+import ResearchFingerprint from './pages/ResearchFingerprint';
+
 
 import './App.css';
 
@@ -18,6 +20,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/research-fingerprint" element={<ResearchFingerprint />} />
+
       </Routes>
 
       <footer>
@@ -25,6 +29,7 @@ function App() {
       </footer>
     </Router>
   );
+  
 }
 
 export default App;
