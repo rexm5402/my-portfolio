@@ -6,6 +6,9 @@ import Contact from './pages/Contact';
 import Work from './pages/Work';
 import Navbar from './components/Navbar';
 import ResearchFingerprint from './pages/ResearchFingerprint';
+import BugMap from './pages/BugMap';
+
+
 
 
 import './App.css';
@@ -21,6 +24,9 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/research-fingerprint" element={<ResearchFingerprint />} />
+        <Route path="/project-bugmap" element={<BugMap />} />
+
+
 
 
       </Routes>

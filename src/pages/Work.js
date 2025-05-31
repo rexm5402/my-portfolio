@@ -20,10 +20,8 @@ function Work() {
       <section className="project-list">
       <h1 style={{ fontSize: '2rem', marginTop: '1rem', marginBottom: '1rem', color: '#333' }}>Projects</h1>
         <div className="project">
-          <h2><Link to="/project-bugmap">
+        <h2><Link to="/project-bugmap">Analyzing and classifying file system bugs and predicting IOPS score using logistic regression using patch summary</Link></h2>
 
-Analyzing and classifying file system bugs and predicting IOPS score using logistic regression using patch summary
-</Link></h2>
           <p>A comprehensive tool and empirical study on Linux file system patches using ML classification and IOPS latency simulation using QEMU & FEMU.</p>
         </div>
 
