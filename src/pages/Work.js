@@ -17,6 +17,7 @@ function Work() {
       </section>
 
       <section className="project-list">
+      <h1 style={{ fontSize: '2rem', marginTop: '1rem', marginBottom: '1rem', color: '#333' }}>Research Publication</h1>
         <div className="project">
           <h2><Link to="/project-bugmap">BugMap: Analyzing and Classifying File System Bug Patterns for Reliability</Link></h2>
           <p>A comprehensive tool and empirical study on Linux file system patches using ML classification and IOPS latency simulation using QEMU & FEMU.</p>
