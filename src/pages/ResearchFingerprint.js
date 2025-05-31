@@ -5,10 +5,10 @@ function ResearchFingerprint() {
   return (
     <main className="detail-page">
       <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem', color: '#333' }}>
-         Secure Fingerprint Authentication Using SHA-512 & Verilog
+      Design and Implementation of an Efficient Fingerprint Authentication Algorithm using SHA-512
       </h1>
       <h3 style={{ color: '#555', marginBottom: '1.5rem' }}>
-        Co-Author | Published at <a href="https://ieeexplore.ieee.org/document/10548466" target="_blank" rel="noopener noreferrer">IEEE Bellary Conference</a>
+        Co-Author | Published at <a href="https://ieeexplore.ieee.org/document/10548466" target="_blank" rel="noopener noreferrer">IEEE Conference</a>
       </h3>
 
       <p>
