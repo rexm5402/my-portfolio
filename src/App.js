@@ -9,6 +9,7 @@ import ResearchFingerprint from './pages/ResearchFingerprint';
 import BugMap from './pages/BugMap';
 import EdgeCloud from './pages/EdgeCloud';
 import VideoGen from './pages/VideoGen';
+import PricePredict from './pages/PricePredict';
 
 
 
@@ -30,6 +31,8 @@ function App() {
         <Route path="/project-bugmap" element={<BugMap />} />
         <Route path="/edge-cloud" element={<EdgeCloud />} />
         <Route path="/project-videogen" element={<VideoGen />} />
+        <Route path="/project-pricepredict" element={<PricePredict />} />
+
 
 
 

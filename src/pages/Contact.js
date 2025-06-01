@@ -3,9 +3,9 @@ import '../App.css';
 
 function Contact() {
   return (
-    <main className="container">
+    <main className="contact-section">
       <div style={styles.card}>
-        <h1 style={styles.heading}> Let’s Talk</h1>
+        <h1 style={styles.heading}>Let’s Talk</h1>
         <p style={styles.subtext}>
           You made it this far — now let’s make it count.
         </p>

@@ -8,7 +8,7 @@ function VideoGen() {
          AI-Powered Video Generation Using Stable Diffusion
       </h1>
       <h3 style={{ color: '#555', marginBottom: '1.5rem' }}>
-        Personal Research Project | Creative AI & Generative Models | 2025
+        Personal Research Project | Creative AI & Generative Models | 2024
       </h3>
 
       <p>
@@ -28,7 +28,7 @@ function VideoGen() {
         <li>Integrated the frame generation and interpolation pipeline to automate prompt-to-video synthesis.</li>
       </ul>
 
-      <h2 style={{ marginTop: '1.5rem' }}>🛠️ Tools & Frameworks</h2>
+      <h2 style={{ marginTop: '1.5rem' }}> Tools & Frameworks</h2>
       <ul>
         <li>Stable Diffusion (AUTOMATIC1111 + HuggingFace)</li>
         <li>Python, Torch, Diffusers</li>
